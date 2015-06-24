@@ -1,0 +1,12 @@
+# Site settings
+title: CloudHotspot
+email: info@cloudhotspot.co
+description: > # this means to ignore newlines until "baseurl:"
+  Intelligent Wi-Fi subscriber management powered by the cloud.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cloudhotspot.co" # the base hostname & protocol for your site
+twitter_username: cloudhotspot
+github_username:  cloudhotspot
+
+# Build settings
+markdown: kramdown
