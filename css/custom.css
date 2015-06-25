@@ -20,7 +20,7 @@ body {
   margin: auto;
   width: 80%;
   max-width: 786px; 
-  top: 20%; 
+  top: 15%; 
   left: 0; 
   bottom: 0;
   right: 0;
@@ -94,6 +94,63 @@ body {
       font-size: 0.9em;
     }
 }
+
+@media only screen 
+  and (max-device-width: 800px) 
+  and (orientation: landscape) {
+    
+  #banner-container {
+    top: 20%;
+  }
+  #banner {
+    padding: 15px 20px 5px;
+  }
+    
+  #banner h2 {
+    font-size: 1.2em;
+  }
+
+  #banner h3 {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  #banner button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen 
+  and (max-device-width: 640px) 
+  and (orientation: landscape) {
+    
+  #banner-container {
+    top: 20%;
+  }
+  #banner {
+    padding: 15px 20px 5px;
+  }
+    
+  #banner h2 {
+    font-size: 1em;
+  }
+
+  #banner h3 {
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  #banner button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.8em;
+  }
+}
+
 
 @media only screen and (max-width: 480px) {
   #banner-container {
